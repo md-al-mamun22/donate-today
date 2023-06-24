@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(/images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 444px;
+    text-shadow: black 0px 0px 2px;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    width: 650px;
+    display: flex;
+    margin: 0 auto;
+    font-size: 3.5rem;
+    padding-top: 80px;
+}
+
+.description {
+    text-align: center;
+    width: 520px;
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+
+.cmnBtn {
+    background-color: #FF5959;
+    transition: .3s;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.cmnBtn:hover {
+    background-color: #310303;
+    padding: 16px;
+
+
+}
+
+.title1 {
+    text-align: center;
+    width: 230px;
+    display: flex;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    padding-top: 50px;
+}
+
+.description1 {
+    text-align: center;
+    width: 520px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    letter-spacing: 2px;
+    color: #707070;
+}
+
+.amount {
+    width: 450px;
+    display: flex;
+    margin: 0 auto;
+    gap: 25px;
+    color: #707070;
+
+}
+
+.amount div:nth-child(2) {
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    padding: 0 13px;
+    background-color: #f1a3a3;
+}
+
+.taka {
+    color: #707070;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+
+.hr {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.title2 {
+    text-align: center;
+    width: 280px;
+    display: flex;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    padding-top: 75px;
+}
+
+.description2 {
+    text-align: center;
+    width: 520px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #707070;
+}
+
+.donatePlan {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.donatePlan p {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.food {
+    background-color: #bbeef4;
+    padding-left: 15px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.sheltar {
+    background-color: #EDBDBD;
+    padding-left: 15px;
+    padding-top: 50px;
+    border-radius: 10px;
+
+
+}
+
+.Education {
+    background-color: #f6f1e3;
+    padding-left: 15px;
+    border-radius: 10px;
+    padding-top: 50px;
+
+}
+
+.dependDonation {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.left h1 {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.left p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 10px;
+    color: #707070;
+
+}
+
+.left img {
+    width: 100%;
+}
+
+.right h1 {
+    font-size: 52px;
+    font-weight: bold;
+
+}
+
+.right p {
+    font-weight: 300;
+    font-size: 17px;
+    margin: 15px;
+    color: #707070;
+
+}
+
+.right img {
+    width: 100%;
+}
+
+.contribute {
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.contribute:hover {
+    background-color: #310303;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.contribute2:hover {
+    background-color: #310303;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.contribute2 {
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.subscribe2 {
+    width: 550px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+
+}
+
+.input1 {
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.btn3 {
+    background-color: #FF5959;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn3:hover {
+    background-color: #310303;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 8px 0px;
+    padding-left: 8px;
+    border: 1px solid red;
+}
+
+.footerSection {
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.footerSection h2 {
+    color: #FF5959;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+.footerSection p {
+    color: #D9DBE1;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 20px;
+}
